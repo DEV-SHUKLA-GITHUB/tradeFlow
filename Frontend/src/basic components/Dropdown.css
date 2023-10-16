@@ -1,0 +1,21 @@
+/* Dropdown.css */
+/* Customize the appearance of the scrollbar for Chrome */
+.custom-dropdown::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .custom-dropdown::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 3px;
+  }
+  
+  .custom-dropdown::-webkit-scrollbar-track {
+    background-color: #ccc;
+  }
+  
+  /* Customize the appearance of the scrollbar for Firefox */
+  .custom-dropdown {
+    scrollbar-width: thin;
+    scrollbar-color: black #ccc;
+  }
+  

@@ -1,0 +1,11 @@
+/* Custom scrollbar styles for webkit-based browsers */
+.overflow-y-scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #37203E;
+    border-radius: 20rem;
+  }
+  
+  .overflow-y-scroll::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #1F8EBE, #440495, #B102CD);
+    border-radius: 10px;
+}
